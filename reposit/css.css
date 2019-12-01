@@ -1,0 +1,215 @@
+* {box-sizing: border-box;}
+.form1 {
+    position: relative;
+    float: right;
+    width: 300px;
+    margin: 30px 40px;
+}
+.poisk, .button {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #ffffff;
+}
+.poisk {
+    width: 100%;
+    height: 42px;
+    background: #Ffffff;
+    padding-left: 15px;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+.button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #ffffff url(img/poisk.png) no-repeat center;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: absolute;
+    float: right;
+    right: 40px;
+    top:90px;
+    visibility: visible;
+    background-color: #ffffff;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.textp1 {
+    text-align: center;
+    font-family: SF UI Display;
+    color: #78d445;
+}
+
+aside {
+    width: 300px;
+    height: 700px;
+    background-color: #ffffff;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+    float: right;
+}
+
+.sidebar2{
+    position: fixed;
+    float: right;
+    background-color: #ffffff;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+    height: 100%;
+    width: 50px; /* или сколько нужно */
+}
+.page-content{
+    padding-left: 80px; /* ширина блока sidebar и сам отступ */
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.icon1 {
+    top: 30px;
+    position: relative;
+    height: 50px;
+    background: white;
+}
+
+.button1 {
+    background: white;
+    margin: 6.25px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.icon2 {
+    top: 90px;
+    position: absolute;
+    height: 50px;
+    background: white;
+}
+
+.button2 {
+    background: white;
+    margin: 6.25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sidebar3 {
+    position: fixed;
+    float: right;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    display: none;
+    pointer-events: none;
+}
+
+.sidebar3:target {
+    display: block;
+    pointer-events: auto;
+}
+
+
+.login-page {
+    position: relative;
+    padding: 12% 0 0;
+    margin: 10%;
+}
+.form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    background: #ffffff;
+    width: 100%;
+    border-radius: 70px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 0;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #78d445;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #78d445;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+.kart {
+    z-index: 0;
+    position: fixed;
+}
